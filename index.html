@@ -78,7 +78,7 @@
 
 <body>
 	<audio autoplay loop>
-		<source src="images/songs.mp3" type="audio/mpeg">
+		<source src="https://raw.githubusercontent.com/Rezafirdaus17/the-wedding/images/songs.mp3" type="audio/mpeg">
 	</audio>
 
 	<div class="fh5co-loader"></div>
@@ -453,13 +453,12 @@
 
 		$('#open-invitation').click(function () {
 			$('#overlay').addClass('hide-overlay');
-			playAudio1();
 			/*yang bagian floating button ada animasinya tapi karena ketutup dulu sama overlay jadinya gak nampak*/
 			/*pengen pas di klik buka undangan baru jalan animasinya*/
-			var c = document.getElementsByClassName('right-sidebar');
-			for (var i = 0; i < c.length; i++) {
-				c[i].classList.add('animate');
-			}
+			// var c = document.getElementsByClassName('right-sidebar');
+			// for (var i = 0; i < c.length; i++) {
+			// 	c[i].classList.add('animate');
+			// }
 		});
 
 		function scrollToElement(el) {
