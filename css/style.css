@@ -596,11 +596,11 @@ figure {
 }
 
 #overlay .content h1 {
-  font-size: 48px;
+  font-size: 70px;
   margin-bottom: 10px;
-  line-height: 1.5;
-  font-weight: normal;
-  color: #000000;
+  line-height: 2;
+  font-weight: bold;
+  color: #d1b306;
   font-family: "Satisfy", Arial, serif;
 }
 
@@ -615,6 +615,7 @@ figure {
 }
 
 #overlay .content p {
+  font-size: 23px;
   color: #ffffff;
 }
 
@@ -1317,7 +1318,7 @@ form label {
 }
 
 .couple-wrap {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 }

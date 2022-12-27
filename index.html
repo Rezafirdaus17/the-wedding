@@ -77,26 +77,31 @@
 
 
 <body>
-	<audio autoplay loop>
-		<source src="https://raw.githubusercontent.com/Rezafirdaus17/the-wedding/master/images/songs.mp3"
-			type="audio/mpeg">
+	<audio id="Test_Audio" controls autoplay hidden>
+		<source src="images/songs.mp3" type="audio/mpeg">
 	</audio>
-
+	<script>
+		document.getElementById("Test_Audio").autoplay;
+	</script>
 	<div class="fh5co-loader"></div>
 
-	<!--<div class="container">-->
 	<div id="page">
 		<div id="overlay">
 			<div class="content">
 				<div class="container">
 					<div class="row">
+						<div
+							class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
+							<img src="images/rings.png" alt="" class="couple-main">
+						</div>
+					</div>
+					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-							<h1>Hamim Shidqi & Yasmin Nur Madyana</h1>
-							<br><br>
-							<h1>Salwa Aqila & Fathurrahman</h1>
-							<br>
+							<h1>Walimatul Urs</h1>
 							<h3 style="margin-bottom: 0">Kepada Bapak/Ibu/Saudara/i</h3>
-							<p>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
+							<br>
+							<p>Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Berhadir Di Acara Pernikahan
+								Kami.</p>
 							<button class="btn btn-primary" id="open-invitation">Buka Undangan</button>
 						</div>
 					</div>
@@ -106,82 +111,45 @@
 
 		<div id="fh5co-header">
 			<div class="container">
-				<img class="flower-1" style="position: absolute; right: 0; top: 0"
+				<img class="flower-1" style="position: absolute; right: 0; top: 0; opacity: 0.3;"
 					src="images/background/flowers/top-right-1.svg">
-				<img class="flower-1" style="position: absolute; left: -25px; top:0"
+				<img class="flower-1" style="position: absolute; left: -25px; top:0; opacity: 0.3;"
 					src="images/background/flowers/top-left-1.svg">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<h2>~ The Wedding Of ~</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<h1>Hamim & Yasmin</h1>
-						<img src="images/half%20circle%20flower-500.png" alt="" class="couple-main">
+						<img src="images/bismillah.svg" alt="" class="couple-main">
 					</div>
 				</div>
 				<br>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<h1>Salwa & Fathur</h1>
-						<img src="images/half%20circle%20flower-500.png" alt="" class="couple-main">
+						<h3>WE INVITE YOU TO CELEBRATE OUR WEDDING</h3>
 					</div>
 				</div>
+				<br>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<p style="color: #bf9b73">Kami berharap Anda menjadi bagian dari hari istimewa kami!</p>
-						<div class="simply-countdown simply-countdown-wedding"></div>
-						<br>
-						<!-- <p>
-							<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NW0zY2Ewam91bnUzbW5ub2YwdjVxaTliNmUgcDY4MjI3cmY0dTJ0cWI1b3JrZjEwbTN1NDRAZw&tmsrc=p68227rf4u2tqb5orkf10m3u44%40group.calendar.google.com"
-								target="_blank" class="btn btn-primary btn-sm">Save the date</a><br>
-							<i style="font-size: 15px">*Klik tombol ini untuk menyimpan tanggal pada google kalender</i>
-						</p> -->
+						<h1 style="font-weight: bold;">Hamim & Yasmin</h1>
+						<h1 style="font-weight: bold;">Salwa & Fathur</h1>
 					</div>
 				</div>
-			</div>
-		</div>
-
-		<div id="fh5co-couple"
-			style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat ">
-			<div class="container">
-				<img class="flower-2-right" style="position: absolute;" src="images/background/flowers/right-1.svg">
-				<img class="flower-2-left" style="position: absolute;" src="images/background/flowers/left-1.svg">
+				<br>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<img src="images/bismillah.svg" alt="" style="margin-bottom: 20px">
-						<h2>Assalamu'alaikum Wr. Wb.</h2>
-						<p style="color: #bf9b73">Tanpa mengurangi rasa hormat. Kami mengundang Bapak/Ibu/Saudara/i
-							serta Kerabat sekalian untuk menghadiri acara pernikahan kami:</p>
-					</div>
-				</div>
-				<div class="couple-wrap animate-box">
-					<div class="couple-half">
-						<div class="groom">
-							<img src="images/square-1.jpg" alt="groom" class="img-responsive">
+						<p style="color: #050300">Kami berharap Anda menjadi bagian dari hari istimewa kami!</p>
+						<div style="color: #050300; font-size: large; font-weight: bolder;">
+							وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا
+							وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً ۗاِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ
+							يَّتَفَكَّرُوْنَ
 						</div>
-						<div class="desc-groom">
-							<h3>Hamim Shidqi</h3>
-							<p><span style="color: #bf9b73">Putra Ke ... dari</span><br>
-								<span class="parents-font">Bapak ....</span>
-								<br>
-								<span class="parents-font">Ibu ....</span>
-							</p>
-						</div>
-					</div>
-					<p class="heart text-center"><i class="icon-heart2"></i></p>
-					<div class="couple-half">
-						<div class="bride">
-							<img src="images/square-2.jpg" alt="groom" class="img-responsive">
-						</div>
-						<div class="desc-bride">
-							<h3>Yasmin Nur Madyana</h3>
-							<p><span style="color: #bf9b73">Putri Ke ... dari</span><br>
-								<span class="parents-font">Bapak ....</span>
-								<br>
-								<span class="parents-font">Ibu ....</span>
-							</p>
+						<div style="color: #050300; font-size: large;">
+							Artinya: "Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan
+							pasangan-pasangan untukmu
+							dari (jenis) dirimu sendiri agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu
+							rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat
+							tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."
+							<br>
+							<b>(QS. Ar Rum: 21)</b>
 						</div>
 					</div>
 				</div>
@@ -191,53 +159,73 @@
 		<div id="fh5co-couple"
 			style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat ">
 			<div class="container">
-				<div class="couple-wrap animate-box">
-					<div class="couple-half">
-						<div class="groom">
-							<img src="images/square-2.jpg" alt="groom" class="img-responsive">
-						</div>
-						<div class="desc-groom">
-							<h3>Salwa Aqila</h3>
-							<p><span style="color: #bf9b73">Putri Ke ... dari</span><br>
-								<span class="parents-font">Bapak ....</span>
-								<br>
-								<span class="parents-font">Ibu ....</span>
-							</p>
-						</div>
+				<img class="flower-2-right" style="position: absolute; opacity: 0.3;"
+					src="images/background/flowers/right-1.svg">
+				<img class="flower-2-left" style="position: absolute; opacity: 0.3;"
+					src="images/background/flowers/left-1.svg">
+				<div class="col-md-10 col-md-offset-1 text-center fh5co-heading animate-box">
+					<img src="images/bismillah.svg" alt="" style="margin-bottom: 20px">
+					<h2>Assalamu'alaikum Wr. Wb.</h2>
+					<p style="color: #000000; font-size: medium;">Tanpa mengurangi rasa hormat. Kami mengundang
+						Bapak/Ibu/Saudara/i
+						serta Kerabat sekalian untuk menghadiri acara pernikahan kami:</p>
+					<br>
+					<div class="col-md-10 col-md-offset-1 text-center fh5co-heading animate-box">
+						<img src="images/list.png" style="margin-bottom: 5px; width: 100%; opacity: 0.5;">
+						<h2>Pasangan Mempelai</h2>
 					</div>
-					<p class="heart text-center"><i class="icon-heart2"></i></p>
-					<div class="couple-half">
-						<div class="bride">
-							<img src="images/square-1.jpg" alt="groom" class="img-responsive">
-						</div>
-						<div class="desc-bride">
-							<h3>Fathurrahman</h3>
-							<p><span style="color: #bf9b73">Putra Ke ... dari</span><br>
-								<span class="parents-font">Bapak ....</span>
-								<br>
-								<span class="parents-font">Ibu ....</span>
-							</p>
-						</div>
+					<div class="col-md-6 text-center fh5co-heading animate-box">
+						<img src="images/photo-2.png" style="margin-bottom: 5px; width: 50%;">
+						<h2 style="font-weight: bold;">Hamim Shidqi</h2>
+						<h3>Putra Ke-... Dari ... & ...</h3>
+					</div>
+					<div class="col-md-6 text-center fh5co-heading animate-box">
+						<img src="images/photo-1.png" style="margin-bottom: 5px; width: 50%;">
+						<h2 style="font-weight: bold;">Yasmin Nur Madyana</h2>
+						<h3>Putri Ke-... Dari ... & ...</h3>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!--	style="background-image:url('images/background/blue-brush-2.jpg');"-->
+		<div id="fh5co-couple"
+			style=" background: url('images/background/repeat-background/witewall_3.png'); background-repeat:repeat ">
+			<div class=" container">
+				<img class="flower-2-right" style="position: absolute; opacity: 0.3;"
+					src="images/background/flowers/right-1.svg">
+				<img class="flower-2-left" style="position: absolute; opacity: 0.3;"
+					src="images/background/flowers/left-1.svg">
+				<div class="col-md-10 col-md-offset-1 text-center fh5co-heading animate-box">
+					<div class="col-md-10 col-md-offset-1 text-center fh5co-heading animate-box">
+						<img src="images/list.png" style="margin-bottom: 5px; width: 100%; opacity: 0.5;">
+						<h2>Pasangan Mempelai</h2>
+					</div>
+					<div class="col-md-6 text-center animate-box">
+						<img src="images/photo-1.png" style="margin-bottom: 5px; width: 50%;">
+						<h2 style="font-weight: bold;">Salwa Aqila</h2>
+						<h3>Putri Ke-... Dari ... & ...</h3>
+					</div>
+					<div class="col-md-6 text-center animate-box">
+						<img src="images/photo-2.png" style="margin-bottom: 5px; width: 50%;">
+						<h2 style="font-weight: bold;">Fathurrahman</h2>
+						<h3>Putra Ke-... Dari ... & ...</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div id="fh5co-event" class="fh5co-bg" style="border-top: 1px solid #f2f2f2">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 						<h2>Save The Date</h2>
-						<!-- <h2>Save The Date <a href="calendar.ics" class="btn btn-info"><i class="icon-download2"></i></a>
-						</h2> -->
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-11 col-md-offset-3">
 						<div class="col-md-6 col-sm-6 text-center">
 							<div class="event-wrap animate-box">
-								<h3 style="font-family: 'Oswald', Arial, serif;">Akad Nikah</h3>
+								<h3 style="font-family: 'Oswald', Arial, serif;">Resepsi Nikah</h3>
 								<div class="event-col">
 									<i class="icon-clock"></i>
 									<span>10:00</span>
@@ -245,15 +233,13 @@
 								</div>
 								<div class="event-col">
 									<i class="icon-calendar"></i>
-									<span>Jumat</span>
+									<span>Sabtu</span>
 									<span class="tanggal">05 Maret 2023</span>
 								</div>
-								<p style="font-family: 'Courgette', Arial, serif">Alamat : ...</p>
-								<a href="" target="_blank" class="btn btn-primary">Penunjuk Lokasi <i
-										class="icon-map2"></i></a>
-
-								<!-- <a href="https://goo.gl/maps/kSZez6MQC8SDNevM7" target="_blank"
-									class="btn btn-primary">Penunjuk Lokasi <i class="icon-map2"></i></a> -->
+								<p style="font-family: 'Courgette', Arial, serif">Alamat : PP. Al Falah Ploso, Mojo,
+									Kediri, Jawa Timur</p>
+								<a href="https://goo.gl/maps/F7hiqHJkRTa85T349" target="_blank"
+									class="btn btn-primary">Penunjuk Lokasi <i class="icon-map2"></i></a>
 							</div>
 						</div>
 					</div>
@@ -261,26 +247,35 @@
 			</div>
 		</div>
 
-		<div id="fh5co-gallery">
-		</div>
-		<div id="fh5co-ayat">
-			<img height="400" width="100%" style="position: absolute; bottom: -175px"
-				src="images/background/wave-down.svg">
+		<div id="fh5co-gallery"
+			style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat ">
+			<img class="flower-3-top" src="images/background/flowers/top-2.svg">
+			<img class="flower-4-bottom" src="images/background/flowers/bottom-2.svg">
+
 			<div class="container">
-				<div class="ayat-content animate-box">
-					Dan di antara tanda-tanda kekuasaan-Nya lah Dia menciptakan untukmu istri-istri dari jenismu
-					sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa
-					kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum
-					yang berfikir.
-					<br>
-					<b>- Q.S Ar Rum : 21 -</b>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<h2>The Memorable Moments</h2>
+						<h3 style="color: #000000">Tidak Ada Yang Spesial Dalam Cerita Kami. Tapi Kami Sangat Spesial
+							Untuk Satu Sama Lain. Dan Kami Bersyukur, Dipertemukan Allah Diwaktu Terbaik, Kini Kami
+							Menanti Hari Istimewa Kami.
+						</h3>
+					</div>
+				</div>
+				<div class="row row-bottom-padded-md animate-box">
+					<div class="col-md-12">
+						<div id="inline-gallery-container" class="inline-gallery-container"
+							style="position: relative; height: 500px"></div>
+					</div>
 				</div>
 			</div>
 		</div>
+
 		<div id="fh5co-health-protocol">
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<br><br><br>
 						<h2>Protokol Kesehatan & Anjuran</h2>
 						<p style="color: #bf9b73">Guna mencegah penyebaran Covid-19, diharapkan bagi tamu undangan untuk
 							mematuhi Protokol Kesehatan di bawah ini :</p>
@@ -342,36 +337,6 @@
 			</div>
 		</div>
 
-		<!-- <div id="fh5co-testimonial"
-			style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat; border-top: 1px solid #f2f2f2">
-			<img height="400" class="flower-bukutamu-right" style="right: 0;top: 0;position: absolute;"
-				src="images/background/flowers/top-right-3.svg">
-			<img height="400" class="flower-bukutamu-left" style="position: absolute; left: 0; bottom: 0"
-				src="images/background/flowers/bottom-left-3.svg">
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Buku Tamu & Ucapan</h2>
-						<span style="color: #bf9b73">Doa Restu Anda merupakan karunia yang sangat berarti bagi
-							kami.</span>
-					</div>
-				</div>
-
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="list-group"></div>
-					</div>
-				</div>
-
-				<div id="button-send" class="text-center animate-box">
-					<a href="https://github.com/maulidandev/nikah-rehan-maulidan/issues/new/choose" target="_blank"
-						class="btn btn-primary btn-sm">Kirim Ucapan</a><br>
-					<i style="font-size: 15px">Note : Hanya bisa diisi jika mempunyai akun github. Jika belum ada
-						silahkan daftar terlebih dahulu</i>
-				</div>
-			</div>
-		</div> -->
-
 		<footer id="fh5co-footer" role="contentinfo"
 			style="background: url('images/background/repeat-background/witewall_3.png'); background-repeat:repeat ">
 			<div class="container">
@@ -385,19 +350,11 @@
 							Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan
 							hadir dan memberikan doa restu.
 							<br>Atas kehadiran dan doa restunya, kami mengucapkan terima kasih.
-						<h3 style="color: #bf9b73">Wassalamu'alaikum Wr. Wb.</h3>
-						Jazakumullahu Khairan
+						<h3 style="color: #000000">Kami Yang Berbahagia, Keluarga Besar Mempelai </h3>
+						Keluarga Besar
+						<br>
+						<h3 style="color: #000000">..... </h3>
 						</p>
-						<div class="row">
-							<div class="col-md-6 text-center">
-								<img src="images/half%20circle%20flower-500.png" width="100" height="100">
-								<h1 style="font-family: 'Satisfy', Arial, serif">Hamim & Yasmin</h1>
-							</div>
-							<div class="col-md-6 text-center">
-								<img src="images/half%20circle%20flower-500.png" width="100" height="100">
-								<h1 style="font-family: 'Satisfy', Arial, serif">Salwa & Fathur</h1>
-							</div>
-						</div>
 					</div>
 				</div>
 
@@ -477,6 +434,43 @@
 			else
 				window.open("https://www.google.com/maps?daddr=Pesantren+Al+Falah+Ploso+Kediri");
 		}
+	</script>
+
+	<script type="text/javascript">
+		const lgContainer = document.getElementById('inline-gallery-container');
+		const inlineGallery = lightGallery(lgContainer, {
+			container: lgContainer,
+			dynamic: true,
+			thumbnail: true,
+			// Turn off hash plugin in case if you are using it
+			// as we don't want to change the url on slide change
+			hash: false,
+			// Do not allow users to close the gallery
+			closable: false,
+			// Add maximize icon to enlarge the gallery
+			showMaximizeIcon: true,
+			download: false,
+			// Append caption inside the slide item
+			// to apply some animation for the captions (Optional)
+			appendSubHtmlTo: '.lg-item',
+			// Delay slide transition to complete captions animations
+			// before navigating to different slides (Optional)
+			// You can find caption animation demo on the captions demo page
+			slideDelay: 100,
+			dynamicEl: [
+				{
+					src: 'images/square-1.jpg',
+					thumb: 'images/square-1.jpg',
+				},
+				{
+					src: 'images/square-2.jpg',
+					thumb: 'images/square-2.jpg',
+				},
+			],
+		});
+
+		// Since we are using dynamic mode, we need to programmatically open lightGallery
+		inlineGallery.openGallery();
 	</script>
 
 </body>
